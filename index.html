@@ -4,6 +4,8 @@
 <head>
     <!-- A-Frame -->
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <!-- Geolocation features -->
+    <script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/3.4.5/three.js/build/ar-threex-location-only.js'></script>
     <!-- we use three.js to handle raycasting -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/three.js/build/ar-threex.js"></script>
     <!-- AR.js A-Frame components -->
@@ -25,8 +27,8 @@
         <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
         <a-entity
         gltf-model="rocket/scene.gltf"
-        gps-new-entity-place="latitude: 43.0794444; longitude: -77.67861111111111"
-        scale="0.5 0.5 0.5"
+        gps-new-entity-place="latitude: 43.079444; longitude: -77.678611"
+        scale="5 5 5"
         clicker
         ></a-entity>
         <a-entity camera></a-entity>
